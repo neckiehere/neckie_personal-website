@@ -1,0 +1,12 @@
+自定义域名简要说明
+
+1. 先购买域名，例如 example.com 或 portfolio.example.com。
+2. 建议先在 GitHub 账号设置中验证域名，降低域名被他人接管的风险。
+3. 进入仓库 Settings → Pages，在 Custom domain 中填写域名并保存。
+4. 再到域名服务商控制台配置 DNS：
+   - 使用 www 或 portfolio 等子域名时，通常配置 CNAME 指向“你的用户名.github.io”。
+   - 使用根域名时，按照 GitHub Pages 官方文档配置 A / ALIAS / ANAME 记录。
+5. DNS 生效后，在 Pages 设置中启用 Enforce HTTPS。
+6. DNS 传播可能需要一段时间，不要在配置尚未完成时反复删除和重建仓库。
+
+注意：不要提前在本文件夹创建真实的 CNAME 文件，除非已经确定最终域名。通过 GitHub Pages 设置保存自定义域名时，使用分支发布通常会自动创建 CNAME 文件。
