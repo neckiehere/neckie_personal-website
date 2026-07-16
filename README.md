@@ -1,4 +1,4 @@
-# Neckie Portfolio
+# Neckie Personal Website
 
 个人求职作品集网站，适用于 GitHub Pages 静态托管。
 
